@@ -1,0 +1,88 @@
+.serviceDetails{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 40px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    overflow-x: hidden;
+}
+@media screen and (max-width: 1000px) {
+    .happyClient{
+        
+      display: none;
+    }
+  
+}
+.exp{
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  padding: 20px;
+}
+.happyClient{
+  flex: 1;
+  width: 40%;
+  height: 100%;
+}
+.aboutUs {
+  display: flex;
+  align-items: flex-start;
+}
+.aboutUs>*{
+  padding-left: 10px;
+}
+.aboutusTxt {
+  background: linear-gradient(to right, #57A698, #85E97F);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.weWant,.weAre{
+  text-align: left;
+}
+.weWant{
+  font-size: 60px;
+}
+.expInYear{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  padding: 10px;
+}
+.count24{
+  font-size: 100px;
+  font-weight: 700;
+  background: linear-gradient(to right, #57A698, #85E97F);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-left: 20px;
+}
+.yearsOf{
+  font-size: 40px;
+  font-weight: 700;
+  color: #4F7396;;
+}
+.check-list::before {
+    content: "✔"; /* Unicode character for check mark */
+    color: green; /* Change color as needed */
+    display: inline-block;
+    margin-right: 10px; /* Space between the check mark and the text */
+  }
+  .check-list{
+    text-align: left;
+    font-size: 20px;
+  }
+.checkList{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}

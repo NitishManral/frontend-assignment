@@ -1,0 +1,31 @@
+.banner{
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+
+    height: 70px;
+    background: linear-gradient(to right, #57A698, #85E97F);
+   
+}
+.bannerMovingPart{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+.bannerMovingPart>*{
+    display: inline;
+    /* padding: 20px; */
+   color: #fff;
+   font-size: 50px;
+    font-weight: 700;
+
+}
+@keyframes move {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
+  }
+  
+  .bannerMovingPart {
+    animation: move 10s linear infinite;
+  }
