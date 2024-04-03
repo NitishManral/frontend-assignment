@@ -3,7 +3,7 @@
     background-size: cover; /* or 'contain' depending on your needs */
     background-repeat: no-repeat;
     background-position: center;
-    /* overflow-y: hidden; */
+    overflow-y: hidden;
 
     height: auto;
     display: grid;

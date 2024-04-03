@@ -1,8 +1,7 @@
 .footer{
-    margin-top: 400px;
     background-color: #18435a;
     width: 100%;
-
+    margin: 200px 0 0 0 ;
     height: 700px;
     display: flex;
     justify-content: center;
@@ -31,6 +30,7 @@
 }
 .ftrImg{
     width: 50%;
+    z-index: 998;
 }
 .newsLetterSubText{
     width: 80%;
@@ -58,6 +58,12 @@
     text-decoration: underline
 }
 @media screen and (max-width: 1100px) {
+    .addNLinks{
+        flex-direction: column;
+    }
+    .addNLinks>*{
+        width: 100%;
+    }
     .ftrImg{
         display: none;
     }
@@ -101,8 +107,11 @@
 }
 .addNLinks{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
     width: 80%;
+    row-gap: 20px;
 }
 .horizontalLine{
     width: 100%;
@@ -126,7 +135,7 @@
     position: absolute;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to right, #509B8D, #85E87E);
+    /* background: linear-gradient(to right, #509B8D, #85E87E); */
     padding: 10px;
     border-radius: 50%;
     cursor: pointer;
@@ -140,7 +149,7 @@
     align-items: left;
     flex-direction: column;
     flex-wrap: nowrap;
-    width: 40%;
+    flex:2;
     row-gap: 10px;
 }
 .address>img{
@@ -162,7 +171,7 @@
     align-items: left;
     flex-direction: row;
     flex-wrap: nowrap;
-    width: 60%;
+    flex:3;
 }
 .Resources,.company,.support{
     display: flex;

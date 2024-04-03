@@ -13,14 +13,16 @@ const Socials = () => {
             <img src={left} alt='left' />
             <img src={middle} alt='middle' />
             <img src={right} alt='right' />
-            <div className='lower'></div>
-        </div>
-        <div className='gettingStarted'>
+            <div className='lower'>
+            <div className='gettingStarted'>
             <h3>Checkout Socials</h3>
                 <div className='anotherDuckTap'>
                     <img src={upArrow} alt='up-arrow' />
                 </div>
              </div>
+            </div>
+        </div>
+        
         </div>
 
     );

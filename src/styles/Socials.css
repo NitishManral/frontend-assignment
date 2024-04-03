@@ -4,7 +4,7 @@
     align-items: center;
     flex-direction: column;
     flex-wrap: nowrap;
-    margin-top: 20%;
+    /* margin-top: 20%; */
 
 }
 
@@ -46,7 +46,7 @@ socials>img:hover{
 }
 @media screen and (max-width: 600px){
     .an{
-        display: none;
+        /* display: none; */
     }
     
 }
