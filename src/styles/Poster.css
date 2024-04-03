@@ -1,16 +1,14 @@
 .poster {
     background-image: url("../assets/posterBG.svg");
-    background-size: cover; /* or 'contain' depending on your needs */
+    background-size: cover; 
     background-repeat: no-repeat;
     background-position: center;
-    overflow-y: hidden;
 
     height: auto;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     width: 100%;
-    overflow-x: hidden;
     
 }
 @media screen and (max-width: 1068px) {
@@ -51,6 +49,7 @@
     border-radius: 25px;
     background-color: rgb(255, 255, 255);
     box-shadow: black 0 0 10px;
+    z-index: 998;
 }
 
 .customerSetisfaction {
