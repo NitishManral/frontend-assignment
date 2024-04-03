@@ -6,7 +6,6 @@ import serach from '../assets/search.png';
 import bag from '../assets/bag.png';
 import arrow from '../assets/arrow.png';
 function NavBar() {
-  const variant = 'Secondary';
   return (
     <div className='navbar'>
       <div className='navBarInner'>
