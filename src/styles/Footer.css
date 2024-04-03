@@ -18,7 +18,6 @@
     border-radius: 50px;
     position: relative;
     top:-100px;  
-    position: relative;
 
 }
 .newsLetter{
@@ -121,24 +120,25 @@
 }
 .copyright{
     display: flex;
-    justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 20px;
-    position: relative;
-
+    height:30px;
+    /* position: relative; */
+    padding:10px 0;
 }
 .copyright>h3{
     text-align: center;
+    flex: 6;
 }
 .goTop{
     position: absolute;
     right: 0;
     bottom: 0;
-    /* background: linear-gradient(to right, #509B8D, #85E87E); */
-    padding: 10px;
+    height: 40px;
+    width: 40px;
     border-radius: 50%;
     cursor: pointer;
+    flex: 1;
 }
 .copyright>h3{
     font-size: 20px;
