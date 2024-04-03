@@ -9,17 +9,17 @@ const FullStackDev = () => {
         <div className='fullStackDev'>
             <div className='profiles'>
                 <div className="profile">
-                    <img src={lady} alt='lady' />
+                    <img className='profilePic' src={lady} alt='lady' />
                     <h2>RACHNA SHETH</h2>
                     <h4>FULL STACK DEVELOPER</h4>
                 </div>
                 <div className="profile">
-                    <img src={man} alt='lady' />
+                    <img className='profilePic' src={man} alt='lady' />
                     <h2>RACHNA SHETH</h2>
                     <h4>FULL STACK DEVELOPER</h4>
                 </div>
                 <div className="profile">
-                    <img src={boy} alt='lady' />
+                    <img className='profilePic' src={boy} alt='lady' />
                     <h2>RACHNA SHETH</h2>
                     <h4>FULL STACK DEVELOPER</h4>
                 </div>

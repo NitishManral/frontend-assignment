@@ -6,9 +6,9 @@ const Banner = () => {
         <div className="banner">
             <div className='bannerMovingPart'>
                 <h1 className='bannerText digital'>DIGITAL</h1>
-                <img src={BannerImg}/>
+                <img src={BannerImg} alt=""/>
                 <h1 className='bannerText JYHTU' >JYHTU</h1>
-                <img src={BannerImg}/>
+                <img src={BannerImg} alt=""/>
                 <h1 className='bannerText CREATIVE'>CREATIVE</h1>
             </div>
         </div>

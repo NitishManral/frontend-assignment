@@ -90,7 +90,7 @@
     padding-top: 5%;
     height: 100%;
     width: 75%;
-
+    animation: fadeIn 1s;
 }
 .wlc{
     display: flex;
@@ -114,12 +114,14 @@
   .posterTagLine{
     text-align: left;
     font-size: 60px;
-    /* width: 70%; */
     color: #ffff;
-   
     font-weight: 700;
-
+    animation: fadeIn 2s;
   }
+  @keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
   .agency{
     text-decoration: underline;
     color:#57A698;
